@@ -5,7 +5,7 @@
     /*flex-direction: row;*/
     align-items: center;
     gap: 6rem;
-    background-olor: red;
+    /* background-olor: red; */
 }
 .logo img {
     width: 260px;
