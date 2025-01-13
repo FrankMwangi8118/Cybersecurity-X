@@ -1,0 +1,46 @@
+.navbar {
+    margin-top: 10px;
+    background-color: #000;
+    display: flex;
+    /*flex-direction: row;*/
+    align-items: center;
+    gap: 6rem;
+    background-olor: red;
+}
+.logo img {
+    width: 260px;
+    margin-top: 10px;
+    margin-left: 330px;
+}
+
+.menu{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    margin-left: 100px;
+}
+.menu li{
+    list-style: none;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+    font-weight: normal;
+    transition: all 0.3s ease-in-out;
+    font-family: "Mona Sans", sans-serif;
+}
+.Contact{
+    margin-left: 200px;
+    background: white;
+    padding: 13px;
+    color: black;
+    border-radius: 10px;
+    transition: all 0.3s ease-out;
+    font-family: "Mona Sans", sans-serif;
+
+}
+.menu li:hover {
+    color: #1E6AFF;
+    transform: scale(1.1);
+    cursor: pointer;
+}
